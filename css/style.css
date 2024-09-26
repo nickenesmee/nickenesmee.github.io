@@ -101,7 +101,7 @@ section .card {
 /* PROGRAMMA */
 @media screen and (min-width: 1024px) {
   section.programma .container,
-  section.cadeaulijst .container {
+  section.cadeautips .container {
     width: 60%;
   }
 }
@@ -116,29 +116,29 @@ section.locatie .card img {
   margin: 1rem auto;
 }
 
-/* CADEAULIJST */
+/* cadeautips */
 
-section.cadeaulijst .carousel-control-prev,
+section.cadeautips .carousel-control-prev,
 .carousel-control-next {
   width: 5%;
 }
 
-section.cadeaulijst .carousel-item p {
+section.cadeautips .carousel-item p {
   max-width: 80%;
   border-left: 5px solid var(--accent-color);
   padding-left: 1rem;
   text-align: left;
 }
-section.cadeaulijst .carousel-item h5 {
+section.cadeautips .carousel-item h5 {
   text-align: left;
 }
-section.cadeaulijst .carousel-item {
+section.cadeautips .carousel-item {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-section.cadeaulijst .carousel.carousel-fade .carousel-item {
+section.cadeautips .carousel.carousel-fade .carousel-item {
   transition: opacity 0.5s;
 }
 /* VRAGEN */
